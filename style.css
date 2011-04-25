@@ -191,8 +191,13 @@ a:hover {color: #598CC9;}
 
 .main {float: left;}
 .main .main-col {float: left; clear: left; width: 380px; margin-top: 50px; padding-top: 15px;}
-.main #sidebar {float: left; width: 320px; margin: 50px 0 0 60px; padding: 15px 0 15px 18px;  background-image: url("img/sidebar-top2.png"), url("img/sidebar-middle2.png"), url("img/sidebar-bottom2.png"); background-repeat: no-repeat, repeat-y, no-repeat; background-position: top center, top center, bottom center;}
+.main #sidebar {float: left; width: 320px; margin: 50px 0 0 60px; padding: 15px 0 15px 18px;  background-image: url("img/sidebar-top2.png"), url("img/sidebar-bottom2.png"), url("img/sidebar-middle2.png"); background-repeat: no-repeat, no-repeat, repeat-y; background-position: top center, bottom center, center center;}
 .main #sidebar ul {list-style: none; font-size: 14px; margin: 10px 0 0 5px;}
-#sidebar img {margin: 20px 0 0 5px; display: block; border: solid 1px #ddd; border-radius: 4px;}
-#sidebar a:hover img {border-color: #598CC9;}
+.main #sidebar ul.social {margin-left: 0; padding-left: 0;}
+.main #sidebar ul.social li {margin-bottom: 4px; padding-left: 35px; display: inline-block; margin-left: 10px;}
+.main #sidebar ul.social li:first-child {margin-left: 0;}
+.main #sidebar ul.social li#twitter {background: url("img/twitter.png") left center no-repeat;}
+.main #sidebar ul.social li#facebook { background: url("img/facebook.png") left center no-repeat;}
+.main #sidebar img {margin: 20px 0 0 5px; display: block; border: solid 1px #ddd; border-radius: 4px;}
+.main #sidebar a:hover img {border-color: #598CC9;}
 
