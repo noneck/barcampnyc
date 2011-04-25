@@ -178,8 +178,9 @@ table {
 
 html {border-top: orange 4px solid;  padding-top: 30px;}
 body {width: 780px; margin: 0 auto; padding: 0 20px; background: url("img/main-bg.png") repeat; font: 14px BitstreamVeraSansRoman;}
-h1, h2 {font: 28px "Adelle Basic"; 10px 0 0 0;}
-p {margin: 0 0 10px 0;}
+h1, h2 {font: 28px "Adelle Basic"; margin: 40px 0 0 0;}
+h1:first-child, h2:first-child {margin-top: 0;}
+p {margin: 5px 0 10px 0;}
 a:link, a:visited {color: #E28E25; text-decoration: none;}
 a:hover {color: #598CC9;}
 
@@ -189,8 +190,8 @@ a:hover {color: #598CC9;}
 
 
 .main {float: left;}
-.main .main-col {float: left; clear: left; width: 380px; margin-top: 60px; padding-top: 15px;}
-.main #sidebar {float: left; background: url("img/sidebar-bg2.png") no-repeat left top; -webkit-border-image: url("img/sidebar-bg_border.png") 16px 16px repeat; width: 320px; margin: 60px 0 0 60px; padding: 15px 0 15px 18px; min-height: 345px;}
+.main .main-col {float: left; clear: left; width: 380px; margin-top: 50px; padding-top: 15px;}
+.main #sidebar {float: left; width: 320px; margin: 50px 0 0 60px; padding: 15px 0 15px 18px;  background-image: url("img/sidebar-top2.png"), url("img/sidebar-middle2.png"), url("img/sidebar-bottom2.png"); background-repeat: no-repeat, repeat-y, no-repeat; background-position: top center, top center, bottom center;}
 .main #sidebar ul {list-style: none; font-size: 14px; margin: 10px 0 0 5px;}
 #sidebar img {margin: 20px 0 0 5px; display: block; border: solid 1px #ddd; border-radius: 4px;}
 #sidebar a:hover img {border-color: #598CC9;}
