@@ -178,8 +178,8 @@ table {
 
 html {border-top: orange 4px solid;  padding-top: 30px;}
 body {width: 780px; margin: 0 auto; padding: 0 20px; background: url("img/main-bg.png") repeat; font: 14px BitstreamVeraSansRoman;}
-h1, h2 {font: 28px "Adelle Basic";}
-p {margin: 10px 0 0 0;}
+h1, h2 {font: 28px "Adelle Basic"; 10px 0 0 0;}
+p {margin: 0 0 10px 0;}
 a:link, a:visited {color: #E28E25; text-decoration: none;}
 a:hover {color: #598CC9;}
 
