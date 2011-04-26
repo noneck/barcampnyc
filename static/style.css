@@ -23,6 +23,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html {
+	overflow-y: scroll;
+}
 body {
 	line-height: 1;
 }
