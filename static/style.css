@@ -176,7 +176,7 @@ table {
 
 
 html {border-top: orange 4px solid;  padding-top: 30px;}
-body {width: 780px; margin: 0 auto; padding: 0 20px; background: url("img/main-bg.png") repeat; font: 14px BitstreamVeraSansRoman;}
+body {width: 780px; margin: 0 auto; background: url("img/main-bg.png") repeat; font: 14px BitstreamVeraSansRoman;}
 h1, h2 {font: 28px "adelle-1", "adelle-2", "Adelle Basic", serif; margin: 40px 0 0 0;}
 h1:first-child, h2:first-child {margin-top: 0;}
 p {margin: 5px 0 10px 0;}
@@ -195,14 +195,14 @@ a:hover {color: #598CC9;}
 .main #sidebar h2:first-child {margin-top: 0;}
 .main #sidebar ul {list-style: none; font-size: 14px; margin: 10px 0 0 5px;}
 .main #sidebar ul.social {margin-left: 0; padding-left: 0;}
-.main #sidebar ul.social li {margin-bottom: 4px; padding-left: 35px; display: inline-block; margin-left: 10px;}
+.main #sidebar ul.social li {margin-bottom: 4px; padding-left: 30px; display: inline-block; margin-left: 40px;}
 .main #sidebar ul.social li:first-child {margin-left: 0;}
 .main #sidebar ul.social li#twitter {background: url("img/twitter.png") left center no-repeat;}
 .main #sidebar ul.social li#facebook { background: url("img/facebook.png") left center no-repeat;}
 .main #sidebar img {margin: 20px 0 0 5px; display: block; border: solid 1px #ddd; border-radius: 4px;}
 .main #sidebar a:hover img {border-color: #598CC9;}
 .main #sponsors {float: left; clear: both; margin-top: 50px;}
-.main #sponsors .sponsor-group {margin: 10px 0 5px;}
+.main #sponsors .sponsor-group {margin: 10px 0 35px;}
 .main #sponsors .sponsor-group img {margin-left: 50px; -webkit-box-shadow: 0px 2px 4px #666; -moz-box-shadow: 0px 2px 4px #666; box-shadow: 0px 2px 4px #666;}
 .main #sponsors .sponsor-group img:first-child {margin-left: 0;}
 
