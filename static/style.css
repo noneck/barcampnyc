@@ -189,7 +189,7 @@ a:hover {color: #598CC9;}
 
 
 .main {float: left;}
-.main .main-col {float: left; clear: left; width: 380px; margin-top: 50px; padding-top: 15px;}
+.main #main-col {float: left; clear: left; width: 380px; margin-top: 50px; padding-top: 15px;}
 .main #sidebar {float: left; width: 320px; margin: 50px 0 0 60px; padding: 15px 0 15px 18px;  background-image: url("img/sidebar-top2.png"), url("img/sidebar-bottom2.png"), url("img/sidebar-middle2.png"); background-repeat: no-repeat, no-repeat, repeat-y; background-position: top center, bottom center, center center;}
 .main #sidebar h2 {margin-top: 20px;}
 .main #sidebar h2:first-child {margin-top: 0;}
@@ -201,4 +201,8 @@ a:hover {color: #598CC9;}
 .main #sidebar ul.social li#facebook { background: url("img/facebook.png") left center no-repeat;}
 .main #sidebar img {margin: 20px 0 0 5px; display: block; border: solid 1px #ddd; border-radius: 4px;}
 .main #sidebar a:hover img {border-color: #598CC9;}
+.main #sponsors {float: left; clear: both; margin-top: 50px;}
+.main #sponsors .sponsor-group {margin: 10px 0 5px;}
+.main #sponsors .sponsor-group img {margin-left: 50px; -webkit-box-shadow: 0px 2px 4px #666; -moz-box-shadow: 0px 2px 4px #666; box-shadow: 0px 2px 4px #666;}
+.main #sponsors .sponsor-group img:first-child {margin-left: 0;}
 
