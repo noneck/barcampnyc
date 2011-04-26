@@ -176,8 +176,8 @@ table {
 
 
 html {border-top: orange 4px solid;  padding-top: 30px;}
-body {width: 780px; margin: 0 auto; background: url("img/main-bg.png") repeat; font: 14px BitstreamVeraSansRoman;}
-h1, h2 {font: 28px "adelle-1", "adelle-2", "Adelle Basic", serif; margin: 40px 0 0 0;}
+body {width: 780px; margin: 0 auto; background: url("img/main-bg.png") repeat; font: 14px "BitstreamVeraSansRoman";}
+h1, h2 {font: 28px "adelle-1", "adelle-2", "Adelle Basic", serif; font-weight: bold; margin: 40px 0 0 0;}
 h1:first-child, h2:first-child {margin-top: 0;}
 p {margin: 5px 0 10px 0;}
 a:link, a:visited {color: #E28E25; text-decoration: none;}
@@ -205,4 +205,3 @@ a:hover {color: #598CC9;}
 .main #sponsors .sponsor-group {margin: 10px 0 35px;}
 .main #sponsors .sponsor-group a img {margin-left: 50px; -webkit-box-shadow: 0px 2px 4px #666; -moz-box-shadow: 0px 2px 4px #666; box-shadow: 0px 2px 4px #666;}
 .main #sponsors .sponsor-group a:first-child img {margin-left: 0;}
-
