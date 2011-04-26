@@ -185,7 +185,7 @@ a:hover {color: #598CC9;}
 
 #header {float: left;}
 #header #logo {display: block; float: left;}
-#header #register {float: left; margin: 77px 0 0 210px; background: url("img/register2.png") no-repeat 96px center; padding: 4px 80px 4px 0; text-align: center; font: 20px QuicksandBold; color: black; }
+#header #register {float: left; margin: 30px 0 0 170px; background: url("img/register3.png") no-repeat left center; padding: 32px 115px 30px 33px; text-align: center; font: 23px QuicksandBold; color: black; }
 
 
 .main {float: left;}
